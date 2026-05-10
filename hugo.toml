@@ -1,4 +1,4 @@
-baseURL = "https://nguyenducleminh11-pixel.github.io/" # THAY TÊN USER CỦA ÔNG VÀO ĐÂY
+baseURL = "https://nguyenducleminh11-pixel.github.io/My-blog/"
 title = "My Minimal Blog"
 theme = "PaperMod"
 
