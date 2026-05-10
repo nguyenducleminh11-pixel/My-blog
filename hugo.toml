@@ -59,3 +59,5 @@ defaultContentLanguage = "vi"
     author = "Tên Của Ông"
     displayFullLangName = true # Hiện chữ "English/Tiếng Việt" để bấm đổi
     showCodeCopyButtons = true # Nút copy code cho chuyên nghiệp
+    showFullContents = true  # Hiện toàn bộ nội dung bài viết ra trang chủ
+    mainSections = ["daily", "problems", "tips"] # Ch
