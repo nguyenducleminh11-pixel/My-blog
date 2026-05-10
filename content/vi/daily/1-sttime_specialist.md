@@ -4,7 +4,7 @@ date: 2026-05-10T21:30:00+07:00
 draft: false
 cover:
     image: "images/cf-specialist.png" # Đường dẫn tính từ folder static
-    alt: "Codeforces Specialist Chart"
+    alt: "Rating cốt phốt "
     relative: false # Để false nếu dùng đường dẫn từ static
 ---
 
