@@ -28,36 +28,27 @@ defaultContentLanguage = "vi"
                 url = "search"
                 weight = 40
 
-    [languages.en]
-        languageName = "English"
-        contentDir = "content/en"
-        weight = 2
-        [languages.en.menu]
-            [[languages.en.menu.main]]
-                name = "Problems"
-                url = "problems"
-                weight = 10
-            [[languages.en.menu.main]]
-                name = "Tips"
-                url = "tips"
-                weight = 20
-            [[languages.en.menu.main]]
-                name = "Daily"
-                url = "daily"
-                weight = 30
-            [[languages.en.menu.main]]
-                name = "Search"
-                url = "search"
-                weight = 40
-
 [outputs]
     home = ["HTML", "RSS", "JSON"]
 
 [params]
     env = "production"
+    title = "lminhnd"
     description = "Blog cá nhân chia sẻ kiến thức"
-    author = "Tên Của Ông"
-    displayFullLangName = true # Hiện chữ "English/Tiếng Việt" để bấm đổi
-    showCodeCopyButtons = true # Nút copy code cho chuyên nghiệp
-    showFullContents = true  # Hiện toàn bộ nội dung bài viết ra trang chủ
-    mainSections = ["daily", "problems", "tips"] # Ch
+    author = "lminhnd"
+    
+    # Giao diện List (giống Codeforces Feed)
+    displayFullLangName = true
+    showCodeCopyButtons = true
+    
+    # CHỖ NÀY QUAN TRỌNG: 
+    # Để false để trang chủ hiện tiêu đề + ảnh bìa + tóm tắt (nhìn rất Pro)
+    showFullContents = false 
+    
+    # Tự động lấy bài từ 3 mục này đẩy ra trang chủ
+    mainSections = ["daily", "problems", "tips"]
+
+    # Cấu hình ảnh bìa cho các bài viết
+    [params.cover]
+        responsiveImages = true
+        linkFullImages = false
