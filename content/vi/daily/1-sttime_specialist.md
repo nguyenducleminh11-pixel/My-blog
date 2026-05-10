@@ -3,7 +3,7 @@ title: "Lần đầu lên Specialist: Hành trình từ xanh biển sang xanh l�
 date: 2026-05-10T21:30:00+07:00
 draft: false
 cover:
-    image: "/images/speacialist.jpg"
+    image: "speacialist.jpg"
     alt: "Rating cốt phốt"
     relative: false
 ---
