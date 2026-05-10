@@ -1,0 +1,61 @@
+baseURL = "https://nguyenducleminh11-pixel.github.io/" # THAY TÊN USER CỦA ÔNG VÀO ĐÂY
+title = "My Minimal Blog"
+theme = "PaperMod"
+
+# Ngôn ngữ mặc định
+defaultContentLanguage = "vi"
+
+[languages]
+    [languages.vi]
+        languageName = "Tiếng Việt"
+        contentDir = "content/vi"
+        weight = 1
+        [languages.vi.menu]
+            [[languages.vi.menu.main]]
+                name = "Giải Thuật"
+                url = "problems"
+                weight = 10
+            [[languages.vi.menu.main]]
+                name = "Thủ Thuật"
+                url = "tips"
+                weight = 20
+            [[languages.vi.menu.main]]
+                name = "Nhật Ký"
+                url = "daily"
+                weight = 30
+            [[languages.vi.menu.main]]
+                name = "Tìm kiếm"
+                url = "search"
+                weight = 40
+
+    [languages.en]
+        languageName = "English"
+        contentDir = "content/en"
+        weight = 2
+        [languages.en.menu]
+            [[languages.en.menu.main]]
+                name = "Problems"
+                url = "problems"
+                weight = 10
+            [[languages.en.menu.main]]
+                name = "Tips"
+                url = "tips"
+                weight = 20
+            [[languages.en.menu.main]]
+                name = "Daily"
+                url = "daily"
+                weight = 30
+            [[languages.en.menu.main]]
+                name = "Search"
+                url = "search"
+                weight = 40
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
+[params]
+    env = "production"
+    description = "Blog cá nhân chia sẻ kiến thức"
+    author = "Tên Của Ông"
+    displayFullLangName = true # Hiện chữ "English/Tiếng Việt" để bấm đổi
+    showCodeCopyButtons = true # Nút copy code cho chuyên nghiệp
